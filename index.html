@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- responsive -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Professional Portfolio</title>
+</head>
+    <body>
+<!--Header/Navigation-->
+        <header>
+            <h1><em>Brianda</em> Dray</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#About Me">About Me</a>
+                    </li>
+                    <li>
+                        <a href='https://github.com/BriDray'>Github</a>
+                    </li>
+                    <li> 
+                         <a href='#portfolio'>Portfolio</a>
+                    </li>
+                    <li> 
+                        <a href='#contact'>Contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+<!--need to fix about me section. Maybe add a flex box container. box 1 for image 
+            and box 2 for title and about me blurb.-->
+    <h2>Hi, I'm Brianda!</h2>
+    <div class="flex-container-intro">
+            <img src="C:\Users\stang\Desktop\homework\Module 2 Challenge-Portfolio\Untitled design.png" width="380" height="400" alt="website image">
+            <p> About me blurb goes here.......</p>
+        </div>
+        <style>
+            .flex-container-intro {
+                display:flex;
+                flex-wrap: wrap;
+                background-color: white;
+            }
+        </style>
+    </div>
+  
+<!--Portfolio section-->
+   <h3>Portfolio</h3>
+    <div class="portfolio">
+        <div class="Project">
+            <h4>Project 1</h4>
+            <img src="C:\Users\stang\Desktop\homework\Module 2 Challenge-Portfolio\Website (1).png" width="300px" height="250px" alt="Project Snapshot Coming soon.">
+            <p>Project Blurb goes here....</p>
+            <button class="portfolio-button">View Project</button>
+        </div>
+        <div class="Project">
+            <h4>Project 2</h4>
+            <img src="C:\Users\stang\Desktop\homework\Module 2 Challenge-Portfolio\Website (1).png" width="300px" height="250px" alt="Project Snapshot Coming soon.">
+            <p>Project Blurb goes here....</p>
+            <button class="portfolio-button">View Project</button>
+        </div>
+        <div class="Project">
+            <h4>Project 3</h4>
+            <img src="C:\Users\stang\Desktop\homework\Module 2 Challenge-Portfolio\Website (1).png" width="300px" height="250px" alt="Project Snapshot Coming soon.">
+            <p>Project Blurb goes here....</p>
+            <button class="portfolio-button">View Project</button>
+        </div>
+        <div class="Project">
+            <h4>Project 4</h4>
+            <img src="C:\Users\stang\Desktop\homework\Module 2 Challenge-Portfolio\Website (1).png" width="300px" height="250px" alt="Project Snapshot Coming soon.">
+            <p>Project Blurb goes here....</p>
+            <button class="portfolio-button">View Project</button>
+        </div>
+    </div> 
+
+<!--Contact Form-->
+    <article>
+        <form id='contact'>
+          <h5> Contact Me</h5>
+
+        <div class="flex-container">
+          <label for="fname">Full name:</label><br>
+          <input type="text" id="fname" name="fname"><br> 
+           <style>
+            .flex-container {
+                display: flex;
+                background-color: antiquewhite;
+              }
+            </style>
+        </div>
+
+        <div class="flex-container">
+          <label for="E-mail">E-mail:</label><br>
+          <input type="E-mail" id="E-mail" name="E-mail">
+        </div>
+
+        <div class="form-button">
+          <button>Send</button>
+        </div>
+        </form>
+    </article>
+  <!--Footer-->      
+    <footer>
+        <h6>Brianda Dray's Portfolio</h6>
+    </footer>
+
+    </body>
+</html>
+        
