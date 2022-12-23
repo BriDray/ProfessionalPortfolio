@@ -1,0 +1,177 @@
+ *{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color:white;
+  color:rgb(8, 8, 8);
+}
+
+header {
+  height:98px;
+  margin: 0;
+  background-color:#000000;
+  color:#ffffff; 
+  font-size: larger;
+  display:flex;
+  justify-content: space-between;
+}
+
+/* Name in header */
+h1 {
+  margin: 0;
+  position: static;
+  padding-top: 35px; 
+  padding-left: 10px;
+  font-size: 395%;
+  font-style:italic;
+  text-shadow: 2px 2px 5px #000000; 
+  color:#ffffff
+}
+
+/* first name in h1 */
+/* em {
+
+} */
+
+/* navigation at top of page */
+nav li {
+  display:inline;
+  /* position:relative;
+  left: 1089px;
+  margin-right: 5px;*/
+  /* top:-70px;  */
+  text-shadow: 2px 2px 5px #000000;
+}
+
+/* Nav list anchors */
+a {
+  color:white;
+}
+
+/* about me section */
+
+.flex-container-intro {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction:row;
+  justify-content: center;
+}
+
+/* about me image */
+.image { 
+  width: 40%;
+} 
+
+/* about me title */
+h2 {
+  font-size: 200%;
+  font-style:italic;
+  text-align: center;
+}  
+
+/* about me blurb */
+p {
+  text-align: center;
+  font-size: large;
+  line-height: 1.5;
+  padding-bottom: 5px;
+}
+
+/* Portfolio section */
+/* Portfolio heading */
+
+h3 {
+  font-size: 200%;
+  font-style:italic;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* Project headings */
+h4 {
+  font-size: 150%;
+  text-align: center;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction:row;
+  flex-flow: row wrap;
+  color: black;
+  justify-content: center;
+  width: 100%;
+  /* Uses the height of the viewport */
+  /* height: 100vh; */
+}
+
+.Project {
+ margin: 0 25px 0 25px;
+ align-items: center;
+ background-color: hotpink;
+ /* border-style: solid teal;
+ border-width: 10px; */
+ justify-content: center;
+}
+
+.portfolio-button {
+  display: flex;
+}
+
+/* contact me form */
+form {
+  height: 150px;
+  width: auto;
+  border-top: 3px solid #000000;
+  background-color:antiquewhite;
+  font-size: large;
+}
+
+/* contact me title */
+h5 {
+  font-size: 180%;
+  font-style:italic;
+  text-align: center;
+  margin-top: 6px;
+  margin-bottom: 3px;
+}
+
+/* Part of form */
+.flex-container {
+  justify-content:center;
+  font-size: 150%;
+}
+
+
+.form-button {
+  justify-content: center;
+  display:flex;
+  margin-top: 5px;
+}
+
+footer{
+  height:35px;
+  background-color:#000000;
+  color:#ffffff; 
+}
+
+h6 {
+  color:#ffffff; 
+  font-size: 125%;
+  font-style:italic;
+  text-align: center;
+  margin:auto;
+}
+
+/* responsive layout */
+@media screen and (max-width: 768px) {
+  /* Use flex-direction to stack the navbar, sidebar, and body */
+  body,
+ header,
+ .image,
+ .portfolio,
+  footer {
+    flex-direction: column;
+  }
+
+}
