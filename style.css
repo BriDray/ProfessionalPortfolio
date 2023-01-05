@@ -115,7 +115,16 @@ h4 {
 /* ---------Project images anchor---------
 had to add margin to get images to center on their background. */
 .project-a-img {
-  margin: 0 0 0 8px;
+  /* margin: 0 0 0 8px; */
+  width: 300px;
+  height: 250px;
+}
+
+.preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 /* ---------Secret message--------- */
@@ -185,6 +194,16 @@ h6 {
     flex-direction: column;
     justify-content: center;
     display:block;
+  }
+
+  header {
+    height: 50vh;
+    width: auto;
+
+  }
+
+  h1 {
+    text-align: center;
   }
 } 
 
