@@ -7,19 +7,19 @@
     <title>Professional Portfolio</title>
 </head>
     <body>
-<!--Header/Navigation-->
+<!------------------Header/Navigation------------------------>
         <header>
             <h1><em>Brianda</em> Dray</h1>
             <nav>
                 <ul>
                     <li>
-                        <a href="#About Me">About Me</a>
+                        <a href='#intro'>About Me</a>
                     </li>
                     <li>
                         <a href='https://github.com/BriDray'>Github</a>
                     </li>
                     <li> 
-                         <a href='#portfolio'>Portfolio</a>
+                         <a href='#highlight'>Portfolio</a>
                     </li>
                     <li> 
                         <a href='#contact'>Contact Me</a>
@@ -28,11 +28,10 @@
             </nav>
         </header>
 
-<!--need to fix about me section. Maybe add a flex box container. box 1 for image 
-            and box 2 for title and about me blurb.-->
-    <h2>Hi, I'm Brianda!</h2>
-    <div class="flex-container-intro">
-            <img src="C:\Users\stang\Desktop\homework\Module 2 Challenge-Portfolio\Untitled design.png" width="380" height="400" alt="website image">
+<!-------------------- About Me Section----------------------->
+        <h2 class="aboutme">Hi, I'm Brianda!</h2>
+    <div class="flex-container-intro" id="intro">
+            <img src="C:\Users\stang\desktop\homework\ProfessionalPortfolio\assets\Untitled design.png" width="380" height="400" alt="website image">
             <p> About me blurb goes here.......</p>
         </div>
         <style>
@@ -43,37 +42,34 @@
             }
         </style>
     </div>
+
   
-<!--Portfolio section-->
+<!-------------------Portfolio section------------------->
    <h3>Portfolio</h3>
     <div class="portfolio">
-        <div class="Project">
-            <h4>Project 1</h4>
-            <img src="C:\Users\stang\Desktop\homework\Module 2 Challenge-Portfolio\Website (1).png" width="300px" height="250px" alt="Project Snapshot Coming soon.">
+        <div class="Project" id="highlight">
+            <h4 data-secret="Project Previews Coming Soon!" >Project 1</h4>
+            <a href='#'><img class="project-a-img" src="C:\Users\stang\desktop\homework\ProfessionalPortfolio\assets\Website (1).png" width="300px" height="250px" alt="Project Snapshot Coming soon."></a>
             <p>Project Blurb goes here....</p>
-            <button class="portfolio-button">View Project</button>
         </div>
         <div class="Project">
-            <h4>Project 2</h4>
-            <img src="C:\Users\stang\Desktop\homework\Module 2 Challenge-Portfolio\Website (1).png" width="300px" height="250px" alt="Project Snapshot Coming soon.">
+            <h4 data-secret="Project Previews Coming Soon!">Project 2</h4>
+            <a href='#'><img class="project-a-img" src="C:\Users\stang\desktop\homework\ProfessionalPortfolio\assets\Website (1).png" width="300px" height="250px" alt="Project Snapshot Coming soon."></a>            
             <p>Project Blurb goes here....</p>
-            <button class="portfolio-button">View Project</button>
         </div>
         <div class="Project">
-            <h4>Project 3</h4>
-            <img src="C:\Users\stang\Desktop\homework\Module 2 Challenge-Portfolio\Website (1).png" width="300px" height="250px" alt="Project Snapshot Coming soon.">
+            <h4 data-secret="Project Previews Coming Soon!">Project 3</h4>
+            <a href='#'><img class="project-a-img" src="C:\Users\stang\desktop\homework\ProfessionalPortfolio\assets\Website (1).png" width="300px" height="250px" alt="Project Snapshot Coming soon."></a>            
             <p>Project Blurb goes here....</p>
-            <button class="portfolio-button">View Project</button>
         </div>
         <div class="Project">
-            <h4>Project 4</h4>
-            <img src="C:\Users\stang\Desktop\homework\Module 2 Challenge-Portfolio\Website (1).png" width="300px" height="250px" alt="Project Snapshot Coming soon.">
+            <h4 data-secret="Project Previews Coming Soon!">Project 4</h4>
+            <a href='#'><img class="project-a-img" src="C:\Users\stang\desktop\homework\ProfessionalPortfolio\assets\Website (1).png" width="300px" height="250px" alt="Project Snapshot Coming soon."></a>            
             <p>Project Blurb goes here....</p>
-            <button class="portfolio-button">View Project</button>
         </div>
     </div> 
 
-<!--Contact Form-->
+<!-----------------------Contact Form-------------------------->
     <article>
         <form id='contact'>
           <h5> Contact Me</h5>
@@ -99,7 +95,7 @@
         </div>
         </form>
     </article>
-  <!--Footer-->      
+  <!-------------------Footer------------------------>      
     <footer>
         <h6>Brianda Dray's Portfolio</h6>
     </footer>
