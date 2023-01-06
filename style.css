@@ -26,7 +26,7 @@ h1 {
   font-size: 395%;
   font-style:italic;
   text-shadow: 2px 2px 5px #000000; 
-  color:#ffffff
+  color:white;
 }
 
 /* ---------navigation at top of page--------- */
@@ -40,6 +40,12 @@ a {
   color:white;
   margin: 0 10px 0 0;
 }
+
+a:hover {
+ color: hotpink;
+  font-weight: bold;
+  
+} 
 
 /* ---------about me section--------- */
 
@@ -66,7 +72,7 @@ h2 {
 /* about me blurb */
 p {
   text-align: center;
-  font-size: large;
+  font-size: 14px;
   line-height: 1.5;
   padding-bottom: 5px;
 }
@@ -112,10 +118,8 @@ h4 {
   
 } 
 
-/* ---------Project images anchor---------
-had to add margin to get images to center on their background. */
+/* ---------Project images anchor---------*/
 .project-a-img {
-  /* margin: 0 0 0 8px; */
   width: 300px;
   height: 250px;
 }
@@ -137,6 +141,11 @@ h4[data-secret]:hover::after {
   font-size: 19px;
   font-weight: bold;
 } 
+
+/* ---------Project blurbs under screenshot anchors--------- */
+.projectblurb {
+  width:325px;
+}
 
 /* ---------contact me form--------- */
 form {
@@ -197,7 +206,7 @@ h6 {
   }
 
   header {
-    height: 50vh;
+    height: 38vh;
     width: auto;
 
   }
