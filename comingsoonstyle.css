@@ -29,27 +29,7 @@
     color:white;
   }
 
-  /* ---------navigation at top of page--------- */
-/* nav li {
-    display:inline;
-    text-shadow: 2px 2px 5px #000000;
-  }
-  
-  /* Nav list anchors 
-  a {
-    color:white;
-    margin: 0 80px 0 0;
-  } */
-  
-  /* a:hover {
-   color: hotpink;
-    font-weight: bold;
-    
-  }  */
-
   /* ---------Thank you for your interest section--------- */
-
-
 .flex-container-comingsoon {
     display: flex;
     flex-flow: block;
@@ -76,7 +56,7 @@
     margin-top: -100px;
   }
 
-   /* home button */
+   /* home link */
   .home a {
    font-size:200% ;
    font-weight: bold;
