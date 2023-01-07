@@ -70,11 +70,12 @@ h2 {
 }  
 
 /* about me blurb */
-p {
-  text-align: center;
+.aboutblurb {
+  text-align: left;
   font-size: 14px;
   line-height: 1.5;
   padding-bottom: 5px;
+  width: 60%;
 }
 
 /* ---------Portfolio section--------- */
@@ -84,7 +85,7 @@ h3 {
   font-size: 200%;
   font-style:italic;
   text-align: center;
-  margin-top: 5px;
+  margin-top: 20px;
 }
 
 /* Project headings */
@@ -108,7 +109,7 @@ h4 {
  margin: 0 25px 15px 25px; 
  max-width: 1100px;
  align-items: center;
- background-color: hotpink;
+ background-color: hotpink; 
  justify-content: center;
 }
 
@@ -144,7 +145,8 @@ h4[data-secret]:hover::after {
 
 /* ---------Project blurbs under screenshot anchors--------- */
 .projectblurb {
-  width:325px;
+  width:315px;
+  text-align: center;
 }
 
 /* ---------contact me form--------- */
