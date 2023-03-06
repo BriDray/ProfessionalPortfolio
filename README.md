@@ -1,4 +1,6 @@
-#Professional Portfolio
+##Professional Portfolio
+
+![License](https://img.shields.io/static/v1?label=License&message=MIT&color=GREEN)
 
 #Description:
  This is my Professional Portfolio that I intend to update and add to as I learn! This project is one I hope will come in handy once i'm ready to apply to jobs in the field. 
