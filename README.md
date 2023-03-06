@@ -9,6 +9,8 @@
 * [Usage](#usage)
 * [Credits](#credits)
 * [Tests](#tests)
+* [Project Status](#project-status)
+<!-- * [What I Learned](#what-i) -->
 * [Github Link](#github-link)
 * [Questions](#questions)
 
@@ -28,14 +30,18 @@ This was a solo project done on my own, Credits go to Bri Dray.
 ## Project Status
 This project is still being added to/adjusted as my skills widen. 
 What you will see thus far:
-*A Header with my name and working NavBar.
-*An About Me section
-*A Portfolio section with places for Project title, A screen shot of my work, A blurb about each project, and a way to view the full project. All of which will be added as my skill improves.
-*A Contact Me form. This is not currently linked to anything, but will be soon!
-*And lastly, a footer.
+* A Header with my name and working NavBar.
+* An About Me section
+* A Portfolio section with places for Project title, A screen shot of my work, A blurb about each project, and a way to view the full project. All of which will be added as my skill improves.
+* A Contact Me form. This is not currently linked to anything, but will be soon!
+* And lastly, a footer.
+
+## What I learned
 This project was also to help me practice:
-*Starting a project from scratch.
-*A major skill practiced was Flexbox.
+* Starting a project from scratch.
+* A major skill practiced was Flexbox.
+* How to add, commit, and push often.
+* How to resolve a merge conflict. 
 
 ## Tests
 None at this time.
